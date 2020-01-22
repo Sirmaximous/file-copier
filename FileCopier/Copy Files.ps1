@@ -1,7 +1,7 @@
- # Copy-Item "C:\Users\AG46388\Documents\testfolder\*" -Destination "C:\Users\AG46388\Documents\testfolder2" -Verbose
+ # Copy-Item "" -Destination "" -Verbose
 
-#$path = "C:\Users\AG46388\Documents\testfolder\*"
-#$dest = "C:\Users\AG46388\Documents\testfolder2"
+#$path = ""
+#$dest = ""
 
 
 $files = Get-ChildItem $path
